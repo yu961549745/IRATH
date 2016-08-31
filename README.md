@@ -11,7 +11,7 @@ We use the improved tanh function method to find exact wave solutions of nonline
 
 ## Files & Usage
 + IRATH.mpl, is the source code of this method.
-+ IRATH.mpl, is the library file of this method. You can put is to the system library path (`libname`), and use `with(IRATH)` to call the `findTanhSolutions` method.
++ IRATH.mpl, is the library file of this method. You can put it to the system library path (`libname`), and use `with(IRATH)` to call the `findTanhSolutions` method.
 + cmp.mw, is the compare demo of between `RATH` and `IRATH`.
 + make.mw, can make library file from IRATH.mpl.
 + paper.pdf, is the description of this method. 
