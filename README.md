@@ -19,7 +19,7 @@ We use the improved tanh function method to find exact wave solutions of nonline
 ## Refered Fils
 The `maple.ind` and `maple.lib` is the package files of `charsets`, refered to [Dongming Wang](http://www-polsys.lip6.fr/~wang/epsilon/index.html).
 
-The `rath.mla` is the package file of `RATH` method, refered to the [this paper](http://www.sciencedirect.com/science/article/pii/S0010465502005593).
+The `rath.mla` is the package file of `RATH` method, refered to [this paper](http://www.sciencedirect.com/science/article/pii/S0010465502005593).
 
 ## Reference
 [1] Li Z, Liu Y. RATH: A Maple package for finding travelling solitary wave solutions to nonlinear evolution equations[J]. Computer Physics Communications, 2002, 148(2): 256-266.
