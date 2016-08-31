@@ -76,13 +76,13 @@ IRATH:=module()
      * xi=k*(x-ct)
     *)
     getODE:=proc(eqi)
-		local eq;
-		eq:=subs(u(x,t)=u(x,t,xi),eqi);
-		eq:=PDETools[dsubs](diff(u(x,t,xi),t)=-c*k*diff(u(x,t,xi),xi),
-		diff(u(x,t,xi),x)=k*diff(u(x,t,xi),xi),
-		eq);
-		eq:=eval(subs(u(x,t,xi)=u(xi),eq));
-		return simplifyEqn(eq);
+        local eq;
+        eq:=subs(u(x,t)=u(x,t,xi),eqi);
+        eq:=PDETools[dsubs](diff(u(x,t,xi),t)=-c*k*diff(u(x,t,xi),xi),
+        diff(u(x,t,xi),x)=k*diff(u(x,t,xi),xi),
+        eq);
+        eq:=eval(subs(u(x,t,xi)=u(xi),eq));
+        return simplifyEqn(eq);
     end proc:
 
     (*
